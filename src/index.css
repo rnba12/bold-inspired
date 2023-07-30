@@ -9,6 +9,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --purple-heart: #6849D3;
+  --piction-blue: #3BAEEE;
+  --violet-eggplant: #A822A6;
+  --sunglow: #FFC839;
 }
 
 body {

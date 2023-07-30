@@ -1,10 +1,17 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Posts from './components/Posts'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
-     <h1>Bold Inspired</h1>
+      <Navbar/>
+      <Hero/>
+      <Posts/>
+      <Footer/>
     </>
   )
 }
