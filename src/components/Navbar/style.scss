@@ -1,0 +1,22 @@
+.navbar {
+    box-sizing: border-box;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--purple-heart);
+}
+
+button {
+    background: none;
+    color: var(--purple-heart);
+    border: none;
+    font-size: 4rem;
+    cursor: pointer;
+}
