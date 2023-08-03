@@ -1,6 +1,7 @@
 import { useState } from "react"
 import Menu from "../Menu/Menu"
 import "./style.scss"
+import Button from "../Button/Button"
 
 export default function Navbar() {
 
@@ -9,11 +10,10 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <h1>Bold Inspired</h1>
-            {menu && <Menu/>}
+            <Menu show={menu}/>
             <button onClick={() => setMenu(prev => !prev)}>
-                {menu ? <iconify-icon icon="mdi:close"></iconify-icon> : <iconify-icon icon="material-symbols:menu"></iconify-icon>}
-                
-                </button>
+                <Button menu={menu}/>    
+            </button>
         </div>
     )
 }

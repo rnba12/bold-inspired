@@ -1,21 +1,14 @@
 import "./style.scss"
 
-export default function Menu() {
+export default function Menu({ show }) {
 
     return (
-        <div className="menu">
+        <div className="menu" style={{display: show ? "block" : "none"}}>
             <nav>
                 <div>
                     <a href="#">About</a>
                     <a href="#">Sign Up</a>
                     <a href="#">Blog</a>
-                </div>
-                <div>
-                    <span>Topics</span>
-                    <a href="#">Movies</a>
-                    <a href="#">Music</a>
-                    <a href="#">Culture</a>
-                    <a href="#">Fashion</a>
                 </div>
             </nav>
         </div>
