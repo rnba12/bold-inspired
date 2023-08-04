@@ -1,8 +1,10 @@
 .posts {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 1.5rem;
+    grid-template-areas: "p1 p2 p3"
+                         "p4 p2 p5";
+    gap: 1rem;
+    margin-bottom: 5rem;
 }
 
 .more-btn {
