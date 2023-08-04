@@ -9,6 +9,11 @@ export default function Socials() {
                 <li><iconify-icon icon="bxl:facebook"></iconify-icon></li>
                 <li><iconify-icon icon="bxl:tiktok"></iconify-icon></li>
             </ul>
+            <p>Subscribe to our newsletter and get updated weekly</p>
+            <form>
+                <input type="text" placeholder="Your Email" />
+                <button>Subscribe</button>
+            </form>
         </section>
 
     )

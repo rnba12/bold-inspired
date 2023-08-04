@@ -1,22 +1,3 @@
-.page-hero {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.tag {
-    font-size: 3rem;
-    width: fit-content;
-    &:nth-child(1) {
-        color: var(--violet-eggplant);
-    }
-    &:nth-child(2) {
-        color: var(--sunglow);
-    }
-    &:nth-child(3) {
-        color: var(--piction-blue);
-    }
-    &:hover {
-        cursor: default;
-        text-decoration: underline;
-    }
+.hero {
+    text-align: center;
 }
