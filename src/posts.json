@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Virtual Try-On Is More Than A Pandemic Trend And These Brands Are Reaping The Rewards",
+        "author": "Samuel David",
+        "topic": "Shopping",
+        "body": true,
+        "image": "src/assets/stock2.webp"
+    },
+    {
+        "title": "Study: Gen Z digital natives interested in a greater variety of sport than previous generations",
+        "author": "Steve McCaskill",
+        "topic": "Sport",
+        "body": false,
+        "image": "src/assets/stock1.jpg"
+    },
+    {
+        "title": "The ‘gig economy’ generation is driving a new era of entrepreneurship",
+        "author": "Helena Young",
+        "topic": "Work",
+        "body": false,
+        "image": "src/assets/stock3.webp"
+    },
+    {
+        "title": "Murals: The Power of Creative Activism through Street Arts",
+        "author": "Selasa",
+        "topic": "Art",
+        "body": false,
+        "image": "src/assets/stock4.jpeg"
+    },
+    {
+        "title": "How to Afford to Travel the World For Young People",
+        "author": "Ava Marie",
+        "topic": "Travel",
+        "body": false,
+        "image": "src/assets/stock5.webp"
+    }
+]

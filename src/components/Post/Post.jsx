@@ -1,16 +1,16 @@
 import "./style.scss"
 
-export default function Post({title, author, topic, image, body}) {
+export default function Post({props}) {
 
     return (
-        <div className={["post " + (body ? "featured" : "")]}>
-            <img src={image} alt={title} width={200} height={"auto"}/>
+        <div className={["post " + (props.body ? "featured" : "")]}>
+            <img src={props.image} alt={props.title} width={200} height={"auto"}/>
             <div className="content">
-                <div className="topic">{topic}</div>
-                <div className="title">{title}</div>
-                <div className="author">{author}</div>
+                <div className="topic">{props.topic}</div>
+                <div className="title">{props.title}</div>
+                <div className="author">{props.author}</div>
             </div>
-                <div>{body}</div>
+                <div>{props.body}</div>
         </div>
     )
 }
