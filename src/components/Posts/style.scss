@@ -1,10 +1,19 @@
 .posts {
     box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 55% 45%;
-    gap: 2rem;
+    // display: grid;
+    // grid-template-columns: 55% 45%;
+    // gap: 2rem;
     margin-bottom: 5rem;
     
+}
+
+.feature-post {
+    height: calc(100vh - var(--navbar-height));
+}
+
+.other-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .more-btn {

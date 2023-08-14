@@ -1,32 +1,67 @@
 .post {
+    position: relative;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+
+    .content {
+        padding: 2.5rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.578);
+    }
 
     img {
+        position: absolute;
+        left: 0;
+        top: 0;
         width: 100%;
-        height: auto;
+        height: 100%;
+        z-index: -1;
         object-fit: cover;
+        transition: all 1s;
     }
     
     .title {
-        font-size: 2rem;
-        font-weight: 500;
-    }
-    
-    .author {
-        font-size: 1rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
     }
 
     .topic {
-        color: var(--purple-heart);
+        color: black;
+        background-color: var(--purple-heart);
         width: fit-content;
+        padding: 0.2rem;
+        font-weight: 500;
     }
+
+    .prompt {
+        display: inline-flex;
+        align-items: center;
+    }
+
     &.featured {
-        height: 100%;
+        .title {
+            font-size: 3rem;
+        }
+        .topic {
+            font-size: 1.2rem;
+        }
+        .author {
+            font-size: 1.2rem;
+        }
+    }
+
+    &:hover {
         img {
-        height: 100%;
+            transform: scale(1.1);
         }
     }
 }

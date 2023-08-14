@@ -11,27 +11,37 @@
         "author": "Steve McCaskill",
         "topic": "Sport",
         "body": false,
-        "image": "src/assets/stock1.jpg"
+        "image": "src/assets/stock1.jpg",
+        "date": "3h ago",
+        "colour": "purple-heart"
+
     },
     {
         "title": "The ‘gig economy’ generation is driving a new era of entrepreneurship",
         "author": "Helena Young",
         "topic": "Work",
         "body": false,
-        "image": "src/assets/stock3.webp"
+        "image": "src/assets/stock3.webp",
+        "date": "5 July",
+        "colour": "sunglow"
     },
     {
         "title": "Murals: The Power of Creative Activism through Street Arts",
         "author": "Selasa",
         "topic": "Art",
         "body": false,
-        "image": "src/assets/stock4.jpeg"
+        "image": "src/assets/stock4.jpeg",
+        "date": "23 May",
+        "colour": "violet-eggplant"
+
     },
     {
         "title": "How to Afford to Travel the World For Young People",
         "author": "Ava Marie",
         "topic": "Travel",
         "body": false,
-        "image": "src/assets/stock5.webp"
+        "image": "src/assets/stock5.webp",
+        "date": "10 May",
+        "colour": "piction-blue"
     }
 ]

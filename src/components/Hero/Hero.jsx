@@ -4,7 +4,7 @@ export default function Hero() {
 
     return (
         <div className="hero">
-            Your new favourite magazine
+            {/* Your new favourite magazine */}
         </div>
     )
 }
