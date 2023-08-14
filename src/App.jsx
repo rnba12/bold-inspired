@@ -4,20 +4,18 @@ import Hero from './components/Hero/Hero'
 import About from './components/About/About'
 import Posts from './components/Posts/Posts'
 import Footer from './components/Footer/Footer'
-import Socials from './components/Socials/Socials'
+import Subscribe from './components/Subscribe/Subscribe'
 
 function App() {
 
   return (
     <>
-    <header>
       <Navbar/>
-    </header>
     <main>
       <Hero/>
       <Posts/>
       <About/>
-      <Socials/>
+      <Subscribe/>
       <Footer/>
     </main>
     </>

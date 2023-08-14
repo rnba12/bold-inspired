@@ -1,0 +1,45 @@
+.subscribe {
+    padding: 2.5rem;
+    color: black;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: var(--violet-eggplant);
+    h4 {
+        font-size: 2rem;
+        margin: 0.5rem 0;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    form {
+        input[type="text"] {
+            font-size: 1.3rem;
+            padding: 0.5rem 1rem;
+            background-color: inherit;
+            color: black;
+            border: none;
+            border-bottom: 1px solid black;
+            // margin-right: 1rem;
+            &::placeholder {
+                color: black;
+            }
+        }
+        button {
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 0.5rem 1rem;
+            color: black;
+            border: none;
+            border-bottom: 1px solid black;
+            background: none;
+            transition: all 0.2s;
+            &:hover {
+                background-color: black;
+                color: var(--violet-eggplant);
+            }
+        }
+    }
+}
+
+
