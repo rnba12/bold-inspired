@@ -6,7 +6,7 @@ export default function Subscribe() {
         <section className="subscribe">
             <div>
                 <h4>DONT MISS AN UPDATE</h4>
-                <p>Subscribe to our newsletter and get updated weekly</p>
+                <p>Subscribe to our newsletter and get new stories directly to your inbox.</p>
             </div>
             <form>
                 <input type="text" placeholder="Your Email" />
