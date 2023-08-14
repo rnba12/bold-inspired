@@ -38,13 +38,14 @@ export default function About() {
     
     return (
         <section className="about">
-            <h2>Your new favourite magazine</h2>
-            <div className="columns">
+            <h2 data-aos="fade">Your new favourite magazine</h2>
+            <div className="columns" data-aos="fade">
             <p>Inspired by the power of stories, information, and practical knowledge to inspire, illuminate, and inform our readers. We feature stories about people who are making a difference in the world, provide information on a variety of topics, and offer resources on topics such as finances, careers, health, and relationships.
             </p>
             <p>We provide new stories weekly from a variety of authors, so our readers can always find something new to read. We believe that everyone has a story to tell, and we want to give a platform to Gen Z voices. Our authors are diverse in terms of their backgrounds, experiences, and perspectives.</p>
             </div>
-            <div className="about-content">
+            <h2 data-aos="fade">Our Values</h2>
+            <div className="about-content" data-aos="fade">
                 <button disabled={slide === 0} onClick={() => changeSlide(-1)}><iconify-icon icon="mdi:arrow-left"></iconify-icon></button>
                 <img src={slides[slide].image} alt="slide" />
                 <div style={{color: `var(--${slides[slide].background})`}}>
