@@ -9,11 +9,20 @@ export default function Navbar() {
 
     return (
         <div className="navbar">
-            <h1>Bold Inspired</h1>
-            <Menu show={menu}/>
-            <button onClick={() => setMenu(prev => !prev)}>
-                <Button menu={menu}/>    
-            </button>
+
+            <div className="topnav">
+                <div className="logo">BOLD INSPIRED</div>
+                <div className="button" onClick={() => setMenu(prev => !prev)}>
+                    <Button menu={menu}/>
+                </div>
+            </div>
+
+
+            <nav className={menu ? "active" : ""}>
+                <a href="#">ABOUT</a>
+                <a href="#">BLOG</a>
+                <a href="#">SUBSCRIBE</a>
+            </nav>
         </div>
     )
 }
