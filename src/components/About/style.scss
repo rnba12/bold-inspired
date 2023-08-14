@@ -1,27 +1,53 @@
 .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 0 2.5rem;
 
-    img {
-        width: 400px;
-        height: auto;
+    h2 {
+        color: var(--purple-heart);
+        font-size: 2.5rem;
     }
+    .columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        font-size: 1.1rem;
+        p {
+            line-height: 2rem;
+        }
+    }
+   
 }
 
-.tag {
-    font-size: 3rem;
-    width: fit-content;
-    &:nth-child(1) {
-        color: var(--violet-eggplant);
+.about-menu {
+    text-align: center;
+}
+
+.about-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto;
+    gap: 2rem;
+    margin: 3rem 0;
+
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
     }
-    &:nth-child(2) {
-        color: var(--sunglow);
+
+    h4 {
+        font-size: 2rem;
     }
-    &:nth-child(3) {
-        color: var(--piction-blue);
+    p {
+        font-size: 1.5rem;
     }
-    &:hover {
-        cursor: default;
-        text-decoration: underline;
+
+    button {
+        background: none;
+        border: none;
+        color: var(--purple-heart);
+        font-size: 1.5rem;
+        &:disabled {
+            color: gray;
+        }
     }
 }
